@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+    box-sizing: border-box;
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    padding-top: 10px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(68, 65, 65, 0.937);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color:white ;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration-style: solid ;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(221, 213, 213, 0.2);
+}
+
+
+
+p #icon {
+    width: 100%;
+    height: 100%;
+    padding-top:17%;
+    padding-left: 20%;
+   
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: balck;
+}
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(li.webp);
+    background-position: 50% 40%;
+    background-size: cover;
+}
+#bottom{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(200, 203, 198);
+    display: flex;
+}
+#b1{
+    width: 25%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.855);
+   
+}
+#btn1{
+    color:  rgba(68, 65, 65, 0.937);;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+#btn1:hover{
+    text-decoration-style: solid ;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#btn2{
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    padding-top: 20%;
+    padding-left: 5%;
+    
+}
+#btn2:hover{
+    text-decoration-style: solid ;
+    color: rgb(164, 152, 152);
+    text-shadow: 2px 2px 4px #aca7a7;
+}
+#btn3{
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    padding-top: 20%;
+    padding-left: 5%;
+    
+}
+#btn3:hover{
+    text-decoration-style: solid ;
+    color: rgb(142, 137, 137);
+    text-shadow: 2px 2px 4px #000000;
+}
+#btn4{
+    text-decoration: white;
+    text-shadow: whitesmoke;
+    border: 2px solid white;
+    border-radius:20%;
+    padding: 20px;
+}
+#btn4:hover{
+   background-color: gray;
+   color:whitesmoke
+   
+}
+
+
+#b2{
+    width: 25%;
+    height: 100%;
+    background-image: url(p1.avif);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+#b3{
+    width: 25%;
+    height: 100%;
+    background-image: url(p3.avif);
+    background-position: center;
+    background-size: cover;
+
+}
+#b4{
+    padding-top: 20px;
+    width: 25%;
+    height: 100%;
+   background-image: url(p4.avif);
+   background-position: top;
+   background-size: cover;
+}
+#btn4:hover{
+    background-color: rgba(128, 128, 128, 0.311);
+    color: rgb(254, 251, 251);
+}
+#content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(221, 210, 210, 0.115);
+    font-weight: bold;
+    align-items: end;
+   
+    color: rgba(68, 65, 65, 0.937);
+    position: relative;
+
+}
+#text{
+    align-items: center;
+    /* height: 120px; */
+    width: 100%;
+    /* background-color: rgb(194, 187, 187); */
+    justify-content: space-between;
+    position:absolute;
+    bottom: 50%;
+    padding: 0 10vw;
+    display: flex;
+}
+#happy{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(100, 93, 93);
+}
+#happy:hover{
+    
+    box-shadow: 10px 10px 5px rgb(188, 191, 193);
+}
+#text h1{
+   
+    font-size: 3vw;
+    font-weight: bolder;
+}
+#text h1:hover{
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+   color: whitesmoke;
+   background-color: #0000001b;
+    box-shadow: 10px 10px 5px rgb(124, 127, 128);
+}
+#textRight{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+#textRight p{
+    font-size: 12px;
+    width: 40%;
+}
+#textRight p:hover{
+    color: rgb(243, 226, 226);
+    background-color: #00000011;
+    width: 230px;
+  height: 100px;
+  padding: 15px;
+ 
+  box-shadow: 10px 10px 5px rgb(124, 127, 128);
+}
