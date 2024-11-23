@@ -2,7 +2,7 @@
 CALCULATOR A fully functional CALCULATOR built with a combination of HTML, CSS, JavaScript, and the Bootstrap framework for styling.
 
 🔹 Key Features:
-
+    
 Basic Operations: Addition, subtraction, multiplication, and division Responsive Design: Thanks to Bootstrap, the layout adapts seamlessly to different screen sizes (mobile, tablet, desktop) Clean User Interface: A simple, intuitive interface that's easy to use Real-Time Calculations: Instant feedback as you click the buttons
 
 🔹 Technologies Used:
